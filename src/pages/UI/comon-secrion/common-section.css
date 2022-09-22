@@ -1,0 +1,9 @@
+.common_section{
+    background: url("../../../assets/image/bg-cover.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding: 112px 0px;
+    text-align: center;
+    opacity: 0.8;
+}

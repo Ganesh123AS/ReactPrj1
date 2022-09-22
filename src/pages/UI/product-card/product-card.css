@@ -1,0 +1,34 @@
+.product_item{
+    border: 1px solid #fde4e4;
+    text-align: center;
+    padding: 30px;
+    cursor: pointer;
+}
+.product_img{
+    margin-bottom: 20px;
+    transition: 0.4s;
+}
+.product_img:hover{
+    transform: scale(1.3);
+
+}
+.product_content h5 a{
+    color: #212145;
+    font-size: 17px;
+}
+.product_content h5{    
+    margin-bottom: 30px;
+}
+.product_price{
+    font-weight: 700;
+    font-size: 19px;
+    color: #df2020;
+}
+.addToCart_btn{
+    border: none;
+    padding: 7px 25px;
+    background: #df2020;
+    color: #fff;
+    border-radius: 8px;
+    font-size: 16px;
+}

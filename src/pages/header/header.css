@@ -1,0 +1,123 @@
+.header{
+    width: 100%;
+    height: 100px;
+    line-height: 80px;
+}
+.logo{
+    margin-left: 22px;
+}
+.logo img{
+    width: calc(100% - 92%);
+    object-fit: contain;
+}
+.logo h5{
+    font-weight: 600;
+    font-size: 16px;
+    color: #212245;
+    margin-top: -12px;
+    margin-bottom: 0px;
+}
+.menu a{
+    font-weight: 600;
+    font-size: 16px;
+    color: #212245;
+    transition: 0.5s;
+}
+.menu a:hover{
+    color: #df2020;
+}
+.active_menu{
+    color: #df2020 !important;
+}
+.cart_icon i, .user i, .mobile_menu i {
+    font-size: 23px;
+    color: #212245;
+    cursor: pointer;
+}
+.cart_icon{
+    position: relative;
+}
+.cart_badge{
+    position: absolute;
+    top: 19px;
+    right: -12px;
+    background: #df2020;
+    color: #fff;
+    width: 18px;
+    height: 18px;
+    border-radius: 50%;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.mobile_menu{
+    font-weight: 600;
+    display: none;
+}
+.header_shrink{
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    left: 0;
+    box-shadow: 5px 5px 15px -5px #fde4e4;
+    background: #fff;
+    z-index: 999;
+}
+
+@media only screen and (max-width: 992px){
+    .logo img{
+        width: calc(100% - 90%);
+    }
+    .logo h5{
+        font-size: 14px;
+        margin-top: -10px;
+    }
+    .navigation{
+        position: fixed;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(0, 0, 0, 0.425);
+        z-index: 99;
+        display: none;
+    }
+    .menu{
+        position: absolute;
+        top: 0;
+        right: 0;
+        width: 250px;
+        height: 100%;
+        background: #fff;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        z-index: 100;
+        line-height: 20px;
+    }
+    .menu a{
+        font-size: 15px;
+    }
+    .mobile_menu{
+        display: block;
+    }
+    .cart_icon i, .user i, .mobile_menu i{
+        font-size: 16px;
+    }
+    .show_menu{
+        display: block;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    .header{
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+    }
+    .logo h5{
+        margin-top: 0px;
+    }
+}

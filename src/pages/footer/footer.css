@@ -1,0 +1,52 @@
+.footer{
+    padding-top: 50px;
+    padding-bottom: 30px;
+    background: #fde4e4;
+}
+.footer_logo img{
+    width: calc(100% - 55%);
+    margin-bottom: 15px;
+    border-radius: 15%;
+}
+.footer_title{
+    font-size: 19px;
+    color: #212245;
+    font-weight: 600;
+}
+.footer_logo h5{
+    font-weight: 600;
+    font-size: 17px;
+    margin-bottom: 15px;
+}
+.footer_logo p{
+    font-size: 15px;
+    color: #333;
+    line-height: 28px;
+}
+.delivery_time_item{
+    background: transparent !important;
+}
+.delivery_time_item span{
+    font-weight: 600;
+    font-size: 17px;
+    color: #212245;
+}
+.social_media span i{
+    padding: 5px;
+    background: #ff5353;
+    color: #fff;
+    border-radius: 50%;
+}
+.social_media span a{
+    text-decoration: none;
+}
+.follow{
+    padding-top: 10px;
+    font-size: 20px;
+    font-weight: 600;
+}
+.copyright{
+    text-align: center;
+    font-size: 16px;
+    color: #df2020;
+}

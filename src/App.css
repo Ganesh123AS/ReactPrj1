@@ -1,38 +1,205 @@
-.App {
-  text-align: center;
+.sectiom_body{
+    background: rgb(241, 241, 241);
+    margin-top: 10px;
+}
+.carosel_img img{
+    height: 580px;
+}
+.time_left span{
+    background: rgb(245, 248, 67);
+    padding: 8px;
+    margin: 8px;
+    border: 1px solid;
+}
+.deal{
+    padding: 10px;
+}
+.deal h2{
+    font-size: 35px;
+    font-weight: 700;
+    margin-top: 35px;
+}
+.deal h4{
+    font-size: 27px;
+    font-weight: 600;
+    margin-top: 35px;
+}
+.deal h5{
+    font-size: 24px;
+    font-weight: 500;
+    margin-top: 40px;
+    margin-bottom: 45px;
+}
+.deal p{
+    margin-top: 20px;
+}
+.botton{
+    margin-top: 32px;
+}
+.btn-outline-success{
+    color: #fff;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+
+
+.feature_subtitle{
+    color: #df2020;
+}
+.feature_title span{
+    color: #df2020;
+}
+.feature_text{
+    color: #777;
+}
+.feature_item p{
+    color: #777;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+
+.item_category{
+    background: #df2020;
+    text-align: center;
+    margin-top: 30px;
+    padding: 20px 0px;
+    border-radius: 12px;
+}
+.item_category button{
+    border: none;
+    outline: none;
+    padding: 7px 20px;
+    background: transparent;
+    color: #fff;
+}
+.item_category button img{
+    width: 25px;
+    height: 25px;
+}
+.itemBtnActive{
+    background: #fff !important;
+    border-radius: 8px;
+    color: #df2020 !important;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+
+
+/*------------All Products---------------------*/
+.search_widget, .seraching_widget select{
+    padding: 8px 16px;
+    border: 1px solid #fde4e4;
+    border-radius: 6px;
+    cursor: pointer;
+}
+.search_widget{
+    border: none;
+}
+.search_widget input:focus{
+    outline: none;
 }
 
-.App-link {
-  color: #61dafb;
+
+/*------------All Products React pagination css---------------------*/
+.paginationBttns{
+    width: 80%;
+    height: 40px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    column-gap: 12px;
+    list-style: none;
+    margin-top: 32px;
+}
+.paginationBttns a{
+    padding: 5px 13px;
+    background: #df2020;
+    color: #fff !important;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+    text-decoration: none;
+}
+.paginationBttns a:hover{
+    background: #212245;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+
+
+/*------------Item Details React css---------------------*/
+.single_product_content{
+    padding-left: 50px;
+}
+.product_price{
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+.product_price span{
+    font-size: 36px;
+}
+.category{
+    font-weight: 600;
+    color: #212245;
+    display: flex;
+    align-items: center;
+    column-gap: 17px;
+}
+.category span{
+    padding: 5px 10px;
+    background: #fde4e4;
+    color: #212245;
+    border-radius: 6px;
+}
+.tabs{
+    border-bottom: 1px solid #fde4e4;
+}
+.tab h6{
+    cursor: pointer;
+}
+.tabs_content{
+    padding: 30px 0px;
+}
+.tab_active{
+    color: #df2020;
+}
+.tab_content p{
+    line-height: 30px;
+    color: #212245b6;
+}
+
+.form{
+    width: 60%;
+    margin: auto;
+    background: #fde4e4;
+    padding: 20px;
+    border-radius: 6px;
+}
+.form_group{
+    margin-bottom: 30px;
+}
+.form_group input, .form_group textarea{
+    width: 100%;
+    background: transparent;
+    padding: 7px 20px;
+    border: none;
+    border-bottom: 1px solid #2122454c;
+}
+.form_group input:focus, .form_group textarea:focus{
+    outline: none;
+}
+
+
+.user_name{
+    font-weight: 600;
+    color: #212245;
+}
+.user_email{
+    font-size: 14px;
+}
+.feedback_text{
+    color: #212245b6;
+}
+.img_item{
+    cursor: pointer;
 }
